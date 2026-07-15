@@ -1,0 +1,23 @@
+{
+  "name": "video-call-server",
+  "version": "1.0.0",
+  "description": "Socket.IO signaling server for video calling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "socket.io",
+    "webrtc",
+    "video-call"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
